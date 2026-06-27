@@ -1,4 +1,19 @@
+# Virtual Environments
+venv/
 fastapi_env/
+env/
+
+# Python caching
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+
+# Local Databases
+*.db
+*.sqlite3
+
+# Environments and Secrets
 .env
+.env.*
